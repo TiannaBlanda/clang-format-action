@@ -1,4 +1,4 @@
-name: 'clang-format Code Formatter'
+name:#'clang-format Code Formatter'
 description: 'Runs clang-format on your source code so your users do not have to'
 author: 'antoinealb'
 inputs: 
@@ -10,3 +10,4 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.myInput }}
+ 
