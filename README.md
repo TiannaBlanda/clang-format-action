@@ -1,4 +1,4 @@
-# Clang format Github action
+ !Clang format Github action
 
 This project can be used to run clang-format on every push using Github actions.
 
@@ -22,3 +22,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
+ 
