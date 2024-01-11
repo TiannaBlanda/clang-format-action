@@ -2,7 +2,7 @@
 
 This project can be used to run clang-format on every push using Github actions.
 
-## Usage
+!# Usage
 
 For a more detailed installation guide look [there](https://github.com/MarvinJWendt/run-node-formatter/wiki)
 
@@ -22,4 +22,4 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
- 
+  
